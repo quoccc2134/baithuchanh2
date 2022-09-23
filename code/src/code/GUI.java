@@ -274,7 +274,7 @@ public class GUI extends javax.swing.JFrame {
             edtkq.setText(s);
             edtthongbao.setText("");
         } else {
-            edtthongbao.setText("Đầu vào phải là số!");
+            edtthongbao.setText("Đầu vào phải là số!!");
         }     
     }//GEN-LAST:event_btnnhanActionPerformed
 
@@ -296,7 +296,7 @@ public class GUI extends javax.swing.JFrame {
             edtkq.setText(s);
             edtthongbao.setText("");
         } else {
-            edtthongbao.setText("Đầu vào phải là số!");
+            edtthongbao.setText("Đầu vào phải là số!!");
         }     
     }//GEN-LAST:event_btnchiaActionPerformed
 
