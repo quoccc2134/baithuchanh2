@@ -274,7 +274,7 @@ public class GUI extends javax.swing.JFrame {
             edtkq.setText(s);
             edtthongbao.setText("");
         } else {
-            edtthongbao.setText("Đầu vào phải là số");
+            edtthongbao.setText("Đầu vào phải là số!");
         }     
     }//GEN-LAST:event_btnnhanActionPerformed
 
@@ -284,8 +284,7 @@ public class GUI extends javax.swing.JFrame {
             edtthongbao.setText("Số bị chia phải khác 0");
             edtb.requestFocus();
         }
-        //Double a = Double.parseDouble(edta.getText());
-        //Double b = Double.parseDouble(edtb.getText());
+        
         String regex = "^[-]?(\\d+(\\.\\d*)?)";
         String tmpa = edtb.getText();
         String tmpb = edta.getText();
@@ -297,7 +296,7 @@ public class GUI extends javax.swing.JFrame {
             edtkq.setText(s);
             edtthongbao.setText("");
         } else {
-            edtthongbao.setText("Đầu vào phải là số");
+            edtthongbao.setText("Đầu vào phải là số!");
         }     
     }//GEN-LAST:event_btnchiaActionPerformed
 
